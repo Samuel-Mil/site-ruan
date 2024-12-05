@@ -38,7 +38,62 @@ body {
   }
 }
 
+.modal{
+  display: none;
+  width: 70%;
+  height: 80%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #000;
+  border: 3px solid #810101;
+  color: white;
+  text-align: center;
 
+}
+
+.modal span{
+  font-size: 30px;
+  font-weight: bold;
+  color: #810101;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.modal h1{
+  font-weight: normal;
+}
+
+.modal iframe{
+  max-width: 500px;
+  height: 300px;
+}
+
+.modal a{
+  background-color: #810101;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
 
 .sample-header {
   position: relative;
@@ -159,13 +214,13 @@ h2 {
   filter: invert(1) brightness(2); 
 }
 
-.criminal:hover .btn,
-.divorcio:hover .btn,
-.inventario:hover .btn  {
+.criminal:hover .open-modal,
+.divorcio:hover .open-modal,
+.inventario:hover .open-modal  {
   background-color: #640000;
 }
 
-.btn{
+.open-modal{
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   letter-spacing: 0.1rem;
