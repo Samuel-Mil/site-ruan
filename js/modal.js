@@ -3,19 +3,19 @@ const contents = {
     title: "Divórcio",
     iframe: "https://www.youtube.com/embed/Oh9K0FG9jLI",
     description: "Entenda o processo de divórcio e seus principais detalhes.",
-    link: "https://ruancamposoliveira.com/divorcio",
+    link: "http://ruancampos.com/divorcio",
   },
   criminal: {
     title: "Criminal",
     iframe: "https://www.youtube.com/embed/wut7PUTFbbI",
     description: "Saiba mais sobre casos criminais e como proceder.",
-    link: "https://ruancamposoliveira.com/criminal",
+    link: "http://ruancampos.com/criminalista",
   },
   inventario: {
     title: "Inventário",
     iframe: "https://www.youtube.com/embed/KzPk1hQoyt8",
     description: "Descubra tudo sobre o processo de inventário.",
-    link: "https://ruancamposoliveira.com/inventario",
+    link: "http://ruancampos.com/inventario",
   },
 };
 
