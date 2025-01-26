@@ -27,6 +27,10 @@ body {
   margin-right: 30px;
 }
 
+.whatsapp:hover{
+  cursor: pointer;
+}
+
 
 @keyframes pulse {
   0% {
@@ -171,10 +175,8 @@ h2 {
 }
 
 .sample-section {
-
   margin: auto;
   padding: 40px 20px;
-
 }
 
 
@@ -219,6 +221,7 @@ h2 {
 .divorcio:hover .open-modal,
 .inventario:hover .open-modal  {
   background-color: #640000;
+  cursor: pointer;
 }
 
 .open-modal{
@@ -246,6 +249,7 @@ h2 {
   height: 50px;
   font-size: 20px;
 }
+
 
 
 .top-areas {
@@ -486,6 +490,11 @@ footer {
   filter: grayscale(100%) brightness(1000%);
 }
 
+footer img{
+  width: 300px;
+  margin: 0 130px;
+}
+
 .contato {
   width: 100%;
   min-height: 70vh;
@@ -589,6 +598,10 @@ text-align: center;
   text-align: center;
 }
 
+.btn_box:hover{
+  cursor: pointer;
+}
+
 .contato .left a {
   padding: 5px;
   background-color: white;
@@ -633,7 +646,19 @@ text-align: center;
   }
 
 .cta p{
-  font-size: 18px;
+  font-size: 20px;
+  visibility: hidden; 
+  position: relative; 
+  margin: 30px;
+}
+
+.cta p::after {
+    content: "DEFENDENDO SEUS DIREITOS\A COM EFICIÊNCIA E ÉTICA";
+    visibility: visible; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: pre;
 }
 
   .modal iframe{
@@ -649,6 +674,13 @@ text-align: center;
     align-items: center;
     justify-content: center;
   }
+
+  .top-areas h3 {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    white-space: nowrap;
+}
 
   .top img{
     width: 300px;
@@ -697,9 +729,18 @@ text-align: center;
   }
 
   .contato .right{
-    width: 100%;
+    width: 70%;
     height: auto;
     padding: 40px;
+  }
+
+  .contato .right input[type=submit] {
+    width: 300px;
+    margin-left: -10px;
+  }
+
+  .btn-cta{
+    margin: -7px;
   }
 
   .contato .left{
@@ -708,8 +749,12 @@ text-align: center;
     text-align: center;
   }
 
-.footer img{
-  
+footer img{
+  width: 200px;
+  margin: 10px 0px 20px 25%;
 }
 
+.contato .left a {
+  margin-left: 25px;
+}
 }
